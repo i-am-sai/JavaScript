@@ -14,6 +14,10 @@ greet();
 greet("Sai");
 
 //3. reset parameters : allow you to rep indefinte no of arguments as an array.  denoted ...
+// array.reduce(callback, initialValue);
+// The reduce() method is used to iterate over the numbers array and compute a single value (in this case, the sum of all the numbers).
+// callback : (tot,num) => tot + num
+// initial value : 0
 
 function sum(...numbers) {
     return numbers.reduce((tot, num) => tot + num, 0);
@@ -26,12 +30,14 @@ console.log(sum(1, 2, 3, 4, 5)); // Output: 15
 const add1 = (a,b) => a+b;
 console.log(add1(3,2));
 
-//5. Builti-in Functions
+//5. Built-in Functions
 
 console.log(parseInt("45"));       //parseInt
 console.log(parseFloat("43.56"));  //parseFloat
 
 //setTimeout : exectes function after a specified delay
+// setTimeout(callback, delay, arg1, arg2, ...);
+
 setTimeout(() => console.log("Hello after 2 sec"), 2000);
 
 //setInterval : executes a function repeatedly at specified interval

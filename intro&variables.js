@@ -1,9 +1,9 @@
 // JS is a lightweight, interpreted, JIT compiled scripting language primarly used for adding interaction behaviour to websites.
 
-// Features : Lightweight, Scripting : Interpretation over compilation, Integration with environment, Automation, Dynamic languag.
+// Features : Lightweight, Scripting : Interpretation over compilation, Integration with environment, Automation, Dynamic language.
 // History : Brenden Eich : 1995 ( Netscape L ) : Version ECMA-262
 // Current Version : ES6 or ECMAScript6
-// Run : JS runs in the browser using JS enginer which parses -> compiles -> executes the code.
+// Run : JS runs in the browser using JS engine which parses -> compiles -> executes the code.
 // The Console : Debugging, Testing, Inspecting JS behaviour in browser.
 // Modern JS engine like V8 makes execution faster using JIT.
 

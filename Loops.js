@@ -19,7 +19,7 @@ do{
   k++;
 }while(k<5);
 
-//4. for...in loop : loop iterates over keys(prop) of an object or the indices of and array.
+//4. for...in loop : loop iterates over keys(prop) of an object or the indices of an array.
 // Best for iterating over objects or accessing indices in an array. Avoid for iterating directly over a array : For this use for..of loop
 
 let person = { name : "John", age: 22, city: "Doll" };
